@@ -1,0 +1,5 @@
+library(Deriv)
+print("input your function")
+func <- as.character(readline())
+pratical_derivativex <- Deriv(func,"x")
+print(pratical_derivativex)
