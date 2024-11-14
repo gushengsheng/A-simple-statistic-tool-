@@ -6,4 +6,5 @@
 - 1.graphic operation UI
 - 2.Non-linear least squares
 - 3.improve exsisting funtions,rewrite the coding
-- 4.plot 
+- 4.plot
+- 5.automatic data storing
