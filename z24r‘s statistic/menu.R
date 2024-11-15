@@ -14,7 +14,7 @@ source("statistic3.R")
 
 repeat0 <- function()
 {
-print("1 for statistic1 2 for statistic 2 3 for statistic 3,enter")
+print("1，2,3,4 for statistic1 1，2，3,4 respectively,enter")
 opt <- readline()
 if (opt == 1)
 {
@@ -39,7 +39,7 @@ print(table)
 derivative0(table)
 }else
 {
-A=construct_dateframe()
+A=construct_dateframe1()
 names(A) <- c("xn","yn","zn")
 derivative0(A)
 }

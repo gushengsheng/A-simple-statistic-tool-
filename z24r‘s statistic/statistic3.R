@@ -15,7 +15,7 @@ return(result)
 
 derivative0 <- function(data)
 {
-print("input your function except parameter")
+print("input your function，表达式千万要带上*号不要漏了")
 func <- as.character(readline())
 pratical_derivativex <- Deriv(func,"x")
 pratical_derivativey <- Deriv(func,"y")
