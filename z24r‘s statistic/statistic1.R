@@ -15,7 +15,7 @@ ylen <- length(y1)
 average_x <- sum(x1)/xlen
 average_y <- sum(y1)/ylen
 x2 <- x1-average_x
-y2 <- x1-average_y
+y2 <- y1-average_y
 x3 <- x2*x2
 y3 <- y2*y2
 multiplication <- x2*y2
